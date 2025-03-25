@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+    function add7(x) {
+        return x + 7;
+    }   
+    
+    let x = 8;
+    let sum = add7(x);
+    console.log("Adding 7 comes to", sum);
+
+
+
+    function multiply(a, b) {
+        return a * b;
+    }
+
+    let a = 5;
+    let b = 2;
+    let multiSum = multiply(a, b)
+    console.log("Multiplying the two numbers comes to", multiSum)
+
+
+
+    function capsFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+
+    }
+
+    function capsFullWord(string) {
+        return string.toUpperCase();
+    }
+
+    function capsLowerCase(string) {
+        return string.toLowerCase();
+    }
+
+    function lastLetter(string) {
+        return string.slice(-1)
+    }
+
+    const restWord = "jAvAsCrIpT";
+    console.log(restWord)
+    console.log("First letter uppercase -", capsFirstLetter(restWord))
+    console.log("Full word uppercase -",capsFullWord(restWord))
+    console.log("Full word lowercacse -",capsLowerCase(restWord))
+    console.log("Only the last letter -",lastLetter(restWord))
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+</body>
+</html>
